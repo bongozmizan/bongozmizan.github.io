@@ -1,114 +1,141 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Zakirul Islam | IT Support Portfolio</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Mizanur Rahman Mizan — IT Support Specialist</title>
+  <meta name="description" content="Mizanur Rahman Mizan — IT Support Specialist. 25+ years experience, Google IT Support Certified (2022)." />
   <style>
-    body {
-      font-family: Arial, sans-serif;
-      margin: 0; padding: 0;
-      background: #f7f9fc;
-      color: #333;
-    }
-    header {
-      background: #0a192f;
-      color: white;
-      padding: 20px;
-      text-align: center;
-    }
-    h1 { margin: 0; font-size: 28px; }
-    nav { margin-top: 10px; }
-    nav a {
-      color: #64ffda;
-      margin: 0 10px;
-      text-decoration: none;
-    }
-    section {
-      max-width: 800px;
-      margin: 40px auto;
-      padding: 20px;
-      background: white;
-      border-radius: 8px;
-      box-shadow: 0 4px 6px rgba(0,0,0,0.1);
-    }
-    h2 { color: #0a192f; }
-    .project {
-      margin-bottom: 20px;
-      padding: 10px;
-      border-left: 4px solid #64ffda;
-      background: #f1faff;
-    }
-    footer {
-      text-align: center;
-      padding: 20px;
-      background: #0a192f;
-      color: #aaa;
-      margin-top: 40px;
-    }
+    :root{--bg:#0f1724;--card:#0b1220;--muted:#9aa4b2;--accent:#2dd4bf;--glass:rgba(255,255,255,0.03)}
+    *{box-sizing:border-box;font-family:Inter,ui-sans-serif,system-ui,Segoe UI,Roboto,'Helvetica Neue',Arial}
+    body{margin:0;background:linear-gradient(180deg,#071024 0%, #071226 100%);color:#e6eef6;line-height:1.5}
+    .container{max-width:960px;margin:40px auto;padding:24px}
+    .card{background:linear-gradient(180deg, rgba(255,255,255,0.02), rgba(255,255,255,0.01));backdrop-filter:blur(4px);border:1px solid rgba(255,255,255,0.04);padding:22px;border-radius:12px;box-shadow:0 8px 30px rgba(2,6,23,0.6)}
+    header{display:flex;gap:16px;align-items:center}
+    .avatar{width:96px;height:96px;border-radius:12px;background:linear-gradient(90deg,#0ea5a4,#06b6d4);display:flex;align-items:center;justify-content:center;font-weight:700;font-size:20px;color:#031018;overflow:hidden}
+    .avatar-img{width:100%;height:100%;object-fit:cover;display:block}
+    h1{margin:0;font-size:20px}
+    h2{margin:10px 0 6px;font-size:16px}
+    p{margin:6px 0}
+    .meta{font-size:14px;color:var(--muted)}
+    .links a{color:var(--accent);text-decoration:none}
+    .grid{display:grid;grid-template-columns:1fr;gap:18px;margin-top:18px}
+    @media(min-width:820px){.grid{grid-template-columns:2fr 1fr}}
+    .section{padding:14px;background:var(--glass);border-radius:10px;border:1px solid rgba(255,255,255,0.02)}
+    ul{margin:8px 0 0 18px}
+    .pill{display:inline-block;padding:6px 10px;border-radius:999px;background:rgba(255,255,255,0.04);font-size:13px;margin:4px 6px 4px 0}
+    footer{margin-top:18px;font-size:13px;color:var(--muted)}
+    .btn{display:inline-block;padding:8px 12px;border-radius:8px;background:linear-gradient(90deg,#06b6d4,#2dd4bf);color:#032027;font-weight:600;text-decoration:none}
+    .certs a{color:var(--accent)}
+    .mono{font-family:ui-monospace,SFMono-Regular,Menlo,Monaco,Roboto Mono,monospace;font-size:13px;color:#c7e9e2}
   </style>
 </head>
 <body>
-  <header>
-    <h1>Zakirul Islam</h1>
-    <p>Remote IT Support Specialist | Google IT Support Professional Certified</p>
-    <nav>
-      <a href="#about">About</a>
-      <a href="#projects">Projects</a>
-      <a href="#certifications">Certifications</a>
-      <a href="#contact">Contact</a>
-    </nav>
-  </header>
+  <div class="container">
+    <div class="card">
+      <header>
+        <div class="avatar"><img class="avatar-img" src="sandbox:/mnt/data/Mizan_photo_2_-removebg-preview%20.jpg" alt="Mizan photo" /></div>
+        <div>
+          <h1>Mizanur Rahman Mizan</h1>
+          <div class="meta">IT Support Specialist • Results-driven, dependable, and certified</div>
+          <div style="margin-top:8px" class="links">
+            <span class="mono">Phone:</span> <a class="meta" href="tel:+8801719395125">+8801719 395125</a> • <span class="mono">WhatsApp:</span> <a class="meta" href="tel:+8801857223372">+8801857 223372</a>
+            <br>
+            <a class="btn" href="https://github.com/bongozmizan/" target="_blank">GitHub</a>
+            <a style="margin-left:8px" class="btn" href="https://linkedin.com/in/mizan007/" target="_blank">LinkedIn</a>
+            <a style="margin-left:8px" class="btn" href="https://mizan2000.blogspot.com/" target="_blank">Portfolio</a>
+          </div>
+        </div>
+      </header>
 
-  <section id="about">
-    <h2>About Me</h2>
-    <p>
-      I am an IT support professional with 25+ years of experience in troubleshooting hardware,
-      software, and network issues. I specialize in remote helpdesk support and hold the
-      <strong>Google IT Support Professional Certificate</strong>.
-    </p>
-  </section>
+      <div class="grid">
+        <section class="section">
+          <h2>Professional Summary</h2>
+          <p>Results-driven and dependable <strong>IT Support Professional</strong> with <strong>25 years</strong> of hands-on experience delivering and optimizing technology solutions, system maintenance, troubleshooting, and customer support. Certified by Google in IT Support (2022) with proven ability to resolve complex issues, enhance system performance, and ensure seamless IT operations.</p>
 
-  <section id="projects">
-    <h2>Projects / Case Studies</h2>
-    <div class="project">
-      <h3>WiFi Troubleshooting Case</h3>
-      <p><strong>Problem:</strong> User unable to connect to office WiFi.<br>
-      <strong>Solution:</strong> Diagnosed DNS misconfiguration, reset router, updated drivers.<br>
-      <strong>Result:</strong> Restored stable connectivity for remote employees.</p>
+          <h2 style="margin-top:14px">Extended Summary</h2>
+          <p>I am a dedicated, reliable, and results-driven IT Support Professional with over 25 years of proven experience in delivering comprehensive technology solutions and optimizing IT systems across diverse environments. I have successfully managed and implemented a wide range of IT operations including system maintenance, project coordination, customer service, helpdesk monitoring, hardware & software support, troubleshooting, and issue resolution.</p>
+
+          <p>In 2022, I completed the Google IT Support Professional Certificate with 100% achievement — an intensive eight-month program that enhanced my skills in troubleshooting, networking, operating systems, system administration, customer support, and information security. Through rigorous, hands-on assessments, I demonstrated consistent excellence in applying technical knowledge to resolve complex issues and improve operational efficiency.</p>
+        </section>
+
+        <aside class="section">
+          <h2>Contact & Location</h2>
+          <p class="mono">Email: <a href="mailto:bongozmizan@gmail.com">bongozmizan@gmail.com</a></p>
+          <p class="mono">Address: Almitala, Madarganj, Jamalpur, ZIP code-2041, Bangladesh</p>
+
+          <h2 style="margin-top:12px">Credentials</h2>
+          <ul>
+            <li>Google IT Support Professional Certificate — <span class="mono">Feb 3, 2022</span> • <a href="https://www.credly.com/badges/b678f253-987c-4ce5-8d4e-6880cb47d1ae/public_url" target="_blank">Badge</a></li>
+          </ul>
+
+          <h2 style="margin-top:12px">Quick Links</h2>
+          <ul>
+            <li><a href="https://github.com/bongozmizan/" target="_blank">GitHub</a></li>
+            <li><a href="https://linkedin.com/in/mizan007/" target="_blank">LinkedIn</a></li>
+            <li><a href="https://mizan2000.blogspot.com/" target="_blank">Portfolio Website</a></li>
+          </ul>
+        </aside>
+      </div>
+
+      <div style="margin-top:18px" class="section">
+        <h2>Technical & Business Proficiencies</h2>
+        <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:12px">
+          <div>
+            <h3 style="margin:8px 0 6px">Operating Systems</h3>
+            <p class="meta">Windows 7/8.1/10/11, Server 2019 R2, macOS, Linux, Android, iOS; system imaging & boot; VM‑ware, VirtualBox, AWS Workspaces</p>
+          </div>
+          <div>
+            <h3 style="margin:8px 0 6px">Networking</h3>
+            <p class="meta">Remote desktop & RMM tools (AnyDesk, TeamViewer); LAN/WAN, TCP/IP, Subnetting, DNS, DHCP, VPN</p>
+          </div>
+          <div>
+            <h3 style="margin:8px 0 6px">Administration & Security</h3>
+            <p class="meta">Active Directory, Azure AD, Group Policy, SCCM, MFA (MS/Google Authenticator, Duo); PowerShell, CMDlets, Bash</p>
+          </div>
+          <div>
+            <h3 style="margin:8px 0 6px">Cloud & Apps</h3>
+            <p class="meta">AWS, Azure, IBM Cloud, Google Cloud; Office 365, Google Workspace, process automation</p>
+          </div>
+        </div>
+
+        <h3 style="margin-top:12px">Troubleshooting & DR</h3>
+        <p class="meta">Backups, disaster recovery, file permissions, software installs & rollbacks, hands-on remote fixes, core systems & app environments</p>
+
+        <h3 style="margin-top:12px">Tools & Ticketing</h3>
+        <p class="meta">Zendesk, Jira, Freshdesk, ServiceNow; knowledge base, logs, escalation paths</p>
+
+        <h3 style="margin-top:12px">Programming & Databases</h3>
+        <p class="meta">HTML, CSS, PHP, JavaScript, Python, MATLAB; MySQL, PostgreSQL, SQLite, MongoDB</p>
+      </div>
+
+      <div style="margin-top:18px" class="section">
+        <h2>Certifications & Courses</h2>
+        <ul class="certs">
+          <li>Google IT Support Professional Certificate — Feb 3, 2022 • <a href="https://www.credly.com/badges/b678f253-987c-4ce5-8d4e-6880cb47d1ae/public_url" target="_blank">Credly Badge</a></li>
+          <li>Python For Everybody Specialization — Dec 14, 2022 • University of Michigan</li>
+          <li>Python 3 Programming Specialization — Feb 2, 2022 • University of Michigan</li>
+          <li>Crash Course on Python — Mar 27, 2023 • Google</li>
+          <li>Practical Data Science with MATLAB — Apr 7, 2021 • MathWorks</li>
+          <li>Machine Learning Specialization — Sep 19, 2023 • Stanford</li>
+          <li>Deep Learning Specialization — May 26, 2023 • DeepLearning.AI</li>
+          <li>TensorFlow Developer Specialization — Jul 7, 2023 • DeepLearning.AI</li>
+          <li>Python Project: Software Engineering & Image Manipulation — Feb 22, 2023 • University of Michigan</li>
+          <li>How Google Does Machine Learning — Mar 1, 2023 • Google</li>
+          <li>Introduction to Data Science Specialization — Oct 5, 2025 • Google</li>
+        </ul>
+      </div>
+
+      <div style="display:flex;gap:12px;margin-top:18px;flex-wrap:wrap;align-items:center">
+        <a class="btn" href="mailto:bongozmizan@gmail.com">Email Me</a>
+        <a class="btn" href="https://github.com/bongozmizan/" target="_blank">View GitHub</a>
+        <div style="margin-left:auto;color:var(--muted);font-size:13px">Last updated: Oct 5, 2025</div>
+      </div>
+
+      <footer>
+        <p>© Mizanur Rahman Mizan — IT Support Specialist. Created for professional portfolio use.</p>
+      </footer>
     </div>
-    <div class="project">
-      <h3>Remote PC Setup</h3>
-      <p><strong>Problem:</strong> New employee required full workstation remotely.<br>
-      <strong>Solution:</strong> Installed Windows, configured VPN, applied security updates.<br>
-      <strong>Result:</strong> Employee was productive on Day 1.</p>
-    </div>
-    <div class="project">
-      <h3>Printer Configuration (Remote)</h3>
-      <p><strong>Problem:</strong> Remote worker couldn’t print through VPN.<br>
-      <strong>Solution:</strong> Installed drivers, adjusted firewall rules, tested connectivity.<br>
-      <strong>Result:</strong> Printer fully operational.</p>
-    </div>
-  </section>
-
-  <section id="certifications">
-    <h2>Certifications</h2>
-    <ul>
-      <li>Google IT Support Professional Certificate ✅</li>
-      <li>CompTIA A+ (in progress)</li>
-      <li>Google Workspace Admin Fundamentals</li>
-    </ul>
-  </section>
-
-  <section id="contact">
-    <h2>Contact</h2>
-    <p>Email: <a href="mailto:lalin.dms@gmail.com">lalin.dms@gmail.com</a></p>
-    <p>LinkedIn: <a href="https://linkedin.com/" target="_blank">My LinkedIn</a></p>
-    <p>Resume: <a href="resume.pdf" target="_blank">Download Resume (PDF)</a></p>
-  </section>
-
-  <footer>
-    <p>© 2025 Zakirul Islam | Remote IT Support Portfolio</p>
-  </footer>
+  </div>
 </body>
 </html>
